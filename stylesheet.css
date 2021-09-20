@@ -1,0 +1,32 @@
+body{
+text-align: center;
+background-color: beige;
+}
+
+#headerSection{
+    padding: 5px;
+    color:rgb(34, 170, 7);
+}
+#headerSection h1{
+    font-family: cursive;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#button{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: rgba(7, 7, 214, 0.61);
+    color: rgb(1, 12, 3);
+}
+
+select{
+    padding:10px;
+    border-radius: 5px;
+    width: 180px;
+}

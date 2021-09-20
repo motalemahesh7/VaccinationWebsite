@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="C:\xampp\htdocs\vaccination\stylesheet.css">
+    </head>
+    <body bgcolor="orange" ><center>
+       
+        <style>
+            #button{
+               padding: 5px;
+                border-radius: 5px;
+                background-color: blue;
+              color: white}
+              #dropbox{
+               padding:10px;
+                border-radius: 5px;
+                 width: 180px;
+              }
+              input{
+               padding: 10px;
+               border-radius: 5px;}
+
+        </style>
+        <h1 style="color: darkblue;">REGISTRATION</h1>
+        <hr> 
+        <form action="http://localhost/vaccination/register.php" method="POST"><b>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<input type="text" name="name"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Address:&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="address"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="city"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mobile no.:&nbsp; <input type="number" maxlength="10" name="mobile"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Age Group:&nbsp;&nbsp;&nbsp; <select name="agegroup" id="dropbox">
+            <option value="1"> 0 to 17 </option>
+            <option value="2"> 18 to 44  </option>
+            <option value="3"> 45 onwards  </option>
+        </select><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; User Name:&nbsp;<input type="text" name="username"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:&nbsp; &nbsp;&nbsp;&nbsp;<input type="password" name="password"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confirm Password: <input type="password" name="comform"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button id="button">Register</button>
+    </form></center></body>
+</html>
